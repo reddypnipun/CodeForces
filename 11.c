@@ -16,8 +16,6 @@ int main() {
         int a[n];
         for (int i = 0; i < n; i++)
             scanf("%d", &a[i]);
-
-        // Sort the array
         qsort(a, n, sizeof(int), cmp);
 
         int possible = 1;
