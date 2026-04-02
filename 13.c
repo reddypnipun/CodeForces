@@ -19,5 +19,4 @@ int main(){
     else{
         printf("%d\n",sum-m);
     }
-
 }}
