@@ -6,6 +6,6 @@ int main(void){
         int n, m;
         scanf ("%d %d", &n, &m);
         if ((m + n) % 2== 0) printf("Tonya\n");
-        else printf ("Burenka\n");
+        else  printf ("Burenka\n");
     }
 }
