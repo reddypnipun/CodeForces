@@ -12,7 +12,6 @@ int main()
         for (int i = 0; i < 1; i++){
             if (x[i] == x[i+1]||x[i] == x[i+2]||x[i+2] == x[i+1]){
                 a = 1;
-            }
             if (y[i] == y[i+1]||y[i] == y[i+2]||y[i+2] == y[i+1]){
                 b= 1;
             }
@@ -23,6 +22,6 @@ int main()
         else{
             printf ("YES \n");
         }
-    }
+    }}
     return 0;
 }
